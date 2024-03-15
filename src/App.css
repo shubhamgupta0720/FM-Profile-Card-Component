@@ -27,7 +27,7 @@ main{
 }
 
 .cover-image img{
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 16px 16px 0px 0px;
     object-fit: cover;
     width: 100%;
 }
