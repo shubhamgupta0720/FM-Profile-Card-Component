@@ -1,12 +1,13 @@
 {
   "name": "profile-card-component",
   "private": true,
+  "homepage": "https://shubhamgupta0720.github.io/FM-Profile-Card-Component/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist",
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
